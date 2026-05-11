@@ -1,57 +1,46 @@
-# IPL Data Analytics Dashboard
+# 🏏 IPL Data Analytics Dashboard
 
-## Project Overview
+An end-to-end data analytics project analyzing IPL match data using Python, SQLite, SQL, and Power BI.
 
-This project analyzes IPL match data using Python, SQLite, SQL, and Power BI.
+![IPL Dashboard](dashboard.png)
 
-The dashboard provides interactive insights into:
+## 📊 Project Overview
 
-* Team performance
-* Toss decisions
-* Venue statistics
-* Season-wise match trends
-* Host city analysis
+This project explores IPL match data to uncover insights about team performance, toss decisions, venue statistics, and season-wise trends through an interactive Power BI dashboard.
 
----
+## 🛠️ Technologies Used
 
-## Technologies Used
+- Python
+- Pandas
+- SQLite / SQL
+- Power BI
 
-* Python
-* pandas
-* SQLite
-* SQL
-* Power BI
+## ✨ Features
 
----
+- Interactive Power BI dashboard with slicers and filters
+- KPI cards for total matches, venues, seasons, and host cities
+- Team win analysis across all IPL seasons
+- Toss impact analysis (bat vs field decisions)
+- Venue-wise match distribution
+- Season-wise match trend line chart
 
-## Features
+## 📁 Files Included
 
-* Interactive Power BI dashboard
-* KPI cards for total matches, venues, and seasons
-* Team win analysis
-* Toss impact analysis
-* Venue-wise match statistics
-* Season filters and slicers
+| File | Description |
+|------|-------------|
+| `main.py` | Data processing and SQLite pipeline |
+| `ipl.db` | SQLite database with match data |
+| `ipl_dashboard.pbix` | Power BI dashboard file |
+| `dashboard.png` | Dashboard screenshot |
 
----
+## 📌 Key Insights
 
-## Files Included
+- **Mumbai Indians** and **Chennai Super Kings** are the top-performing IPL teams historically
+- **64.29%** of toss winners choose to field first
+- **Eden Gardens** hosts the most IPL matches among all venues
+- Match counts per season increased significantly post-2019
 
-* main.py
-* ipl.db
-* ipl_dashboard.pbix
+## 👤 Author
 
----
-
-## Dashboard Insights
-
-* Mumbai Indians and Chennai Super Kings are among the top-performing teams.
-* Most teams prefer fielding after winning the toss.
-* Certain venues host significantly more IPL matches.
-* Match counts vary across IPL seasons.
-
----
-
-## Author
-
-Pranavi Reddy
+**Pranavi Reddy**  
+[GitHub](https://github.com/pranavireddyreddy9-ux)
