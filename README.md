@@ -2,7 +2,7 @@
 
 An end-to-end data analytics project analyzing IPL match data using Python, SQLite, SQL, and Power BI.
 
-(dashboard.png)
+![IPL Dashboard](dashboard.png)
 
 ## 📊 Project Overview
 
